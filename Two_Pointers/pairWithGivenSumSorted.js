@@ -19,9 +19,9 @@ for(let i = 0 ; i < n;i++){
 
 return false 
 
-// ============> Two Pointer way
-start = 0
-end = arr.length; 
+// ============> Two Pointer way ===================
+let start = 0
+let end = arr.length; 
 
 while(start < end){
     if(arr[i] + arr[j] < target){
